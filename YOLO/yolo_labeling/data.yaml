@@ -1,0 +1,9 @@
+path: ./dataset_yolo
+
+train: images/train
+val: images/valid
+
+names:
+  0: cheeks
+  1: chin
+  2: forehead
