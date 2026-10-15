@@ -1,0 +1,79 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Logs, notebooks and local configuration
+*.log
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+
+# Datasets and generated image folders
+data/
+data_test/
+dataset/
+datasets/
+dataset_yolo/
+eyes_mouth/
+crop_yolo/
+crop_yolo_new2/
+crop_media_new2/
+combined_eyes_224_verti/
+
+# Image/video data anywhere in the repository.
+# Remove these rules if source images are intentionally versioned.
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tif
+*.tiff
+*.webp
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Model weights and training artifacts
+*.pt
+*.pth
+*.onnx
+*.torchscript
+*.ckpt
+runs/
+YOLO/runs/
+wandb/
+tensorboard/
+events.out.tfevents.*
+training_curve.png
+confusion_matrix.png
+
+# Large local documents and archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.docx
+*.pdf
+
+# Keep repository documentation assets if they are intentionally referenced
+!assets/
+!assets/**

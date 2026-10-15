@@ -4,6 +4,6 @@ opencv-python
 numpy
 matplotlib
 Pillow
-mediapipe
+mediapipe==0.10.14
 tqdm
 tensorboard

@@ -4,7 +4,7 @@ from glob import glob
 from new_crop import advanced_face_crop_with_cleaning  # import hàm crop nếu bạn tách riêng file
 
 # === Cấu hình đường dẫn ===
-input_root = "data"              
+input_root = "./data_test"              
 output_root = "eyes_mouth"        
 
 splits = ["train", "valid", "test"]
